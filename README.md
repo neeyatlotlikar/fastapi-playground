@@ -4,8 +4,10 @@ Simple backend API I created while following the docs and learning about FastAPI
 
 ## Setup
 
-1. Run: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
-2. API: <http://localhost:8000/docs>
+1. Create a Python Virtual Environment (Recommended)
+2. Run: `pip install -r requirements.txt`
+3. Run: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+4. API: <http://localhost:8000/docs>
 
 ## Features
 
